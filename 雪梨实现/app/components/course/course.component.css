@@ -1,0 +1,36 @@
+.container ul{
+    margin-left:70px;
+}
+.container li{
+    border:1px solid grey;
+    width:240px;
+    height: 262px;
+    float:left;
+    margin-right:15px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+img{
+    width:238px;
+    height:130px;
+}
+/* color1{
+    font: 20px black;
+} */
+.height1{
+    margin-top: 10px;
+    height:60px;
+    overflow: hidden;
+    color: grey;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+.bottom{
+    color: grey;
+}
+.floatl{
+    float:left;
+}
+.floatr{
+    float:right;
+}

@@ -1,0 +1,13 @@
+<nav>
+  <ul class="left"><li>
+    <a [routerLink]="['/home']"><img src="assets/img/logo.png"   class="left1"></a>    
+  </li></ul>
+<ul class="nav" id="nav1">
+  <li (click)="change('1')" id=1><a [routerLink]="['/home']">首页</a></li>
+  <li (click)="change('2')" id=2><a [routerLink]="['/tongbu']">同步课</a></li>
+  <li (click)="change('3')" id=3><a [routerLink]="['/course']">课程</a></li>
+  <li (click)="change('4')" id=4><a [routerLink]="['/shequ']" [queryParams]="{id:800,name:44}">社区</a></li>
+</ul>
+<input type="search" value="搜索" class="nav2">
+</nav>
+

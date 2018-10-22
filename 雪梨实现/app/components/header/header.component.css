@@ -1,0 +1,30 @@
+nav{
+    height: 50px;
+    background-color:#ccc;
+    margin-bottom: 20px;
+}
+.left{
+    float: left;
+}
+.nav{
+    float: left;
+    width: 500px;
+    margin:0 10px;
+    line-height: 50px;
+    overflow: hidden;
+}
+.nav li{
+    float:left;
+    margin:0  20px;
+    cursor:pointer;
+    /*光标呈现为指示链接的指针（一只手）*/
+}
+.left1{
+    position: relative;
+    margin-left: 120px;
+    margin-right: 220px;
+}
+.nav2{
+    margin-top: 15px;
+    float: left;
+}

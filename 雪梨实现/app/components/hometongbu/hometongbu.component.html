@@ -1,0 +1,17 @@
+<div class="div1">
+  <p class="p1">我加入的</p>
+  <ul>
+    <li *ngFor="let join of joins;">
+      <div class="each">
+        <img src="{{join.image}}">
+        <div class="div2">
+          <p>{{join.coursename}}</p>
+          <div class="div3">
+            <img src="../../../assets/img/1.png" class="img2">{{join.task}}
+            <img src="../../../assets/img/8.png" class="img2">{{join.person}}
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
