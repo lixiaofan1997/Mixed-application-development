@@ -1,0 +1,89 @@
+page-b{
+    ion-content{
+        
+        .img01{
+            width: 100%;
+            position: absolute;
+        }
+        .ul1{
+            position: relative;
+            img{
+                width:100px;
+            }
+            p{
+                margin:0;
+                font-size: 20px;
+            }
+            margin:25px  0;
+            padding: 0px;
+            text-align: center;
+            // margin-bottom: 60px;
+        }
+        .bgc{
+            background-color: #eeeeee;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            img{
+                height:25px;
+                margin:20px 0  0 0;
+            }
+        }
+        .img2{
+            img{
+                margin-top:25px;
+            }
+        }
+        .tranfirst{
+            height: 86px;
+            text-align: center;
+            background-color: yellow;
+            margin:0  1px;
+        }
+        .tran{
+            height: 86px;
+            text-align: center;
+            background-color: white;
+            margin:0 0 0 2px;
+        }
+        .tran01{
+            background-color: white;
+            height: 95px;
+            margin:6px 6px 4px 0;
+        }
+        .tran02{
+            background-color: white;
+            height: 95px;
+            margin:6px 0 4px 0;
+        }
+        .tran03{
+            background-color: white;
+            height: 95px;
+            margin:0 6px 4px 0;
+        }
+        .tran04{
+            background-color: white;
+            height: 95px;
+            margin:0 0 4px 0;
+        }
+        .tran05{
+            background-color: white;
+            height: 95px;
+            margin:0 6px 7px 0;
+        }
+        .tran06{
+            background-color: white;
+            height: 95px;
+            margin:0 0 7px 0;
+        }
+    }
+    // .sli{
+    //     height:200px;
+    //     border: 1px  yellowgreen solid;
+    //     // !important加上可以强制更改样式，覆盖行内样式，，比行内优先级还高
+    // }
+}
+.no1{
+    height:50px;
+    width:100px;
+}
