@@ -1,0 +1,102 @@
+<!--
+  Generated template for the BPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<!-- 我的页 -->
+<ion-header>
+
+  <!-- <ion-navbar>
+    <ion-title>b</ion-title>
+  </ion-navbar>
+   -->
+</ion-header>
+
+<!-- css工具集，theme下
+  @viewchild
+  创建组件 ionic g  component componentName -->
+<ion-content>
+  <!-- //ion-content  padding 属性被删除了 -->
+    <img src="assets/imgs/wpg.png" class="img01">
+  <!-- <a></a> -->
+  <!-- //全屏内容 -->
+  <ul class="ul1">
+    <li>
+        <img src="assets/imgs/cwty.png">
+        <p>土方桔桔桔</p>
+    </li>
+  </ul>
+    
+  <!-- //分格列表 -->
+  <ion-item-divider>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+            我的订单
+        </ion-col>
+        <ion-col>
+
+        </ion-col>
+        <ion-col>
+            查看全部订单
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item-divider>
+<!-- 我的发布，我的收藏，我的关注 -->
+    <ion-grid class="bgc">
+      <ion-row>
+        <ion-col class="tranfirst">
+          <img src="assets/imgs/fabu.png"><br>
+          我的发布
+        </ion-col>
+        <ion-col class="tran">
+          <img src="assets/imgs/shoucang.png"><br>
+          我的收藏
+        </ion-col>
+        <ion-col class="tran">
+          <img src="assets/imgs/yanjing.png"><br>
+          我的关注
+        </ion-col>
+      </ion-row>
+      <ion-row class="img2">
+        <ion-col class="tran01">
+          <img src="assets/imgs/gouwuche.png"><br>
+          购物车
+        </ion-col>
+        <ion-col class="tran02">
+          <img src="assets/imgs/dizhi.png"><br>
+          收货地址
+        </ion-col>
+      </ion-row>
+      <ion-row class="img2">
+        <ion-col class="tran03">
+          <img src="assets/imgs/yhq.png"><br>
+          优惠券
+        </ion-col>
+        <ion-col class="tran04">
+          <img src="assets/imgs/kefu.png"><br>
+          在线客服
+        </ion-col>
+      </ion-row>
+      <ion-row class="img2">
+        <ion-col class="tran05">
+          <img src="assets/imgs/xinxi.png"><br>
+          我的消息
+        </ion-col>
+        <ion-col class="tran06" (click)="goSub()">
+          <img src="assets/imgs/shezhi.png"><br>
+          设置
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+<!-- 
+    <button (click)="presentAlert()" ion-button clock>
+        presentAlert
+    </button> -->
+
+    <!-- <button (click)="presentProfileModal()" ion-button clock>presentProfileModal</button> -->
+</ion-content>

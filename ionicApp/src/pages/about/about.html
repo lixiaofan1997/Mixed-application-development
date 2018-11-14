@@ -1,0 +1,59 @@
+<!-- 商城页 -->
+<ion-header text-center>
+  <!-- <ion-navbar color="trans"> -->
+    <!-- <ion-title>
+      About
+    </ion-title> -->
+    <ion-searchbar placeholder="双12特惠好物超低价"></ion-searchbar>
+  <!-- </ion-navbar> -->
+</ion-header>
+
+<ion-content>
+  <!-- 1212图片 -->
+  <img src="assets/imgs/shangcheng01.png" alt="" style="margin:0px;padding:0px;">
+  <ul class="navList">
+    <li *ngFor="let item of arr1;let idx=index;" (click)='isClick(idx)'  [class.first]="isActive==idx">{{item}}</li>
+  </ul>
+
+  <div [ngSwitch]="isActive">
+    <div *ngSwitchCase="0">
+    </div>
+    <div *ngSwitchCase="1">
+    </div>
+    <div *ngSwitchCase="2">
+    </div>
+    <div *ngSwitchCase="3">
+    </div>
+    <div *ngSwitchCase="4">
+    </div> 
+  </div>  
+  
+  
+  <p text-center style="margin:5px 0px;color:grey">———沙发———<ion-icon name=""></ion-icon></p>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <img src="assets/imgs/sc01.png" alt="">
+      </ion-col>
+      <ion-col>
+        <img src="assets/imgs/sc02.png" alt="">
+      </ion-col>
+    </ion-row>
+    <ion-row style="height:180px">
+      <ion-col>
+        <img src="assets/imgs/sc03.png" alt="">
+        <div class="pos2" text-center>
+          <p text-center style="color:white;">罗得蒙简约植绒布艺沙发</p>
+          <p text-center style="color:yellow;">RMB 6500</p>
+        </div>
+      </ion-col>
+      <ion-col>
+        <img src="assets/imgs/sc04.png" alt="">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <a style="color:grey;padding-left:250px;">查看全部商品>></a>
+  <p text-center style="margin:5px 0px;color:grey">———电视柜———<ion-icon name=""></ion-icon></p>
+</ion-content>

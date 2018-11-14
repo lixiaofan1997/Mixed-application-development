@@ -1,0 +1,43 @@
+page-add {
+    ion-content{
+
+        ul{
+            overflow:hidden;
+            margin:140px  25px  auto 25px;
+            padding:0px;
+        // background-color: #ffdb2c;
+
+            li{
+                float: left;
+                width:92px;
+                margin:9px 22px;
+                height:160px;
+                background-image: url("../assets/imgs/add2.png");
+                background-size: 90px;
+                background-repeat: no-repeat;
+               img{
+                   margin:27px 0;
+                   height:30px;
+               }
+               h5{
+                   margin-top:14px;
+               }
+               p{
+                   font-size:13px;
+                   margin-top:10px;
+                //    width:100px;
+               }
+            }
+            .widthp{
+                width:100px;
+            }
+            .first{
+                background-image: url("../assets/imgs/add1.png");
+                background-size: 100%;
+                background-repeat: no-repeat;
+                float: left;
+                height:150px;     
+            }
+        }
+    }
+}
